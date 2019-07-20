@@ -38,7 +38,7 @@ export class DetectVisibilityDirective implements AfterViewInit, OnDestroy, OnCh
   private setupObserver() {
     this.observer = new IntersectionObserver(this.detectVisibility, {
       root: this.root.elementRef.nativeElement,
-      threshold: [0, 0.1]
+      threshold: [0, 0.1, 0.2, 0.4, 0.6, 0.8, 1.0]
     });
     this.observer.observe(this.el.nativeElement);
   }

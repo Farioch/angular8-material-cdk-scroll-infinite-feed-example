@@ -3,7 +3,7 @@
         <button mat-raised-button (click)="loadMore()">Load more</button>
     </div>
 
-    <cdk-virtual-scroll-viewport itemSize="650" class="infinite-feed__viewport" #scrollViewport>
+    <cdk-virtual-scroll-viewport itemSize="650" class="infinite-feed__viewport"#scrollViewport>
       <div *cdkVirtualFor="let item of items; index as $index; trackBy: trackByIndex"
            class="infinite-feed__item"
            (detectedVisibility)="item.visible = $event"

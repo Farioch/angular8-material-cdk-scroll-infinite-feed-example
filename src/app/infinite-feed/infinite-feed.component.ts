@@ -23,7 +23,7 @@ import { trigger, transition, style, animate, state} from '@angular/animations';
     ])
   ]
 })
-export class InfiniteFeedComponent implements OnInit, AfterViewInit{
+export class InfiniteFeedComponent implements OnInit, AfterViewInit {
   @ViewChild('scrollViewport', {static: true}) scrollViewport?: CdkVirtualScrollViewport;
 
   currentPage = 0;
