@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
+[Try it out](https://farioch.github.io/angular8-material-cdk-scroll-infinite-feed-example/feed-app/)
+
 ## Installation
 
 Install @angular/cli:
