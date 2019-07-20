@@ -49,6 +49,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "deployUrl": "/angular8-material-cdk-scroll-infinite-feed-example/feed-app/",
               "budgets": [
                 {
                   "type": "initial",

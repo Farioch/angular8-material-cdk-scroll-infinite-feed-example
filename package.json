@@ -1,11 +1,14 @@
 {
   "name": "feed-app",
   "version": "0.1.0",
+  "homepage": "https://farioch.github.io/angular8-material-cdk-scroll-infinite-feed-example/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "predeploy": "npm run build -- --prod",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
@@ -30,6 +33,7 @@
     "@angular/language-service": "~8.1.1",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
+    "gh-pages": "^2.0.1",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
